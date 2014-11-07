@@ -1,0 +1,295 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/var/www/git/ez-notify',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-jasmine',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-bump',
+6 verbose install     'grunt-angular-templates',
+6 verbose install     'grunt-shell' ] ]
+7 info preinstall ez-notify@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping grunt-contrib-jasmine@~0.4.2 /var/www/git/ez-notify
+10 verbose cache add [ 'grunt-contrib-clean@latest', null ]
+11 verbose cache add name=undefined spec="grunt-contrib-clean@latest" args=["grunt-contrib-clean@latest",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt-contrib-clean@latest',
+12 verbose parsed url   path: 'grunt-contrib-clean@latest',
+12 verbose parsed url   href: 'grunt-contrib-clean@latest' }
+13 verbose already installed skipping grunt-bump@0.0.11 /var/www/git/ez-notify
+14 verbose cache add name="grunt-contrib-clean" spec="latest" args=["grunt-contrib-clean","latest"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'latest',
+15 verbose parsed url   path: 'latest',
+15 verbose parsed url   href: 'latest' }
+16 verbose addNamed [ 'grunt-contrib-clean', 'latest' ]
+17 verbose addNamed [ null, null ]
+18 verbose already installed skipping grunt-angular-templates@~0.4.7 /var/www/git/ez-notify
+19 silly lockFile 175fdf7f-grunt-contrib-clean-latest grunt-contrib-clean@latest
+20 verbose lock grunt-contrib-clean@latest /home/jdewit/.npm/175fdf7f-grunt-contrib-clean-latest.lock
+21 info addNameTag [ 'grunt-contrib-clean', 'latest' ]
+22 verbose already installed skipping grunt-shell@~0.6.3 /var/www/git/ez-notify
+23 verbose registry.get https://registry.npmjs.org/grunt-contrib-clean not expired, no request
+24 verbose addNamed [ 'grunt-contrib-clean', '0.6.0' ]
+25 verbose addNamed [ '0.6.0', '0.6.0' ]
+26 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+27 verbose lock grunt-contrib-clean@0.6.0 /home/jdewit/.npm/0a668ef6-grunt-contrib-clean-0-6-0.lock
+28 verbose already installed skipping grunt@~0.4.1 /var/www/git/ez-notify
+29 verbose cache add [ 'grunt-contrib-uglify@latest', null ]
+30 verbose cache add name=undefined spec="grunt-contrib-uglify@latest" args=["grunt-contrib-uglify@latest",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'grunt-contrib-uglify@latest',
+31 verbose parsed url   path: 'grunt-contrib-uglify@latest',
+31 verbose parsed url   href: 'grunt-contrib-uglify@latest' }
+32 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+33 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+34 verbose cache add name="grunt-contrib-uglify" spec="latest" args=["grunt-contrib-uglify","latest"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'latest',
+35 verbose parsed url   path: 'latest',
+35 verbose parsed url   href: 'latest' }
+36 verbose addNamed [ 'grunt-contrib-uglify', 'latest' ]
+37 verbose addNamed [ null, null ]
+38 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+39 verbose lock grunt-contrib-uglify@latest /home/jdewit/.npm/20260ab5-grunt-contrib-uglify-latest.lock
+40 verbose already installed skipping grunt-contrib-watch@~0.5.3 /var/www/git/ez-notify
+41 silly lockFile 175fdf7f-grunt-contrib-clean-latest grunt-contrib-clean@latest
+42 silly lockFile 175fdf7f-grunt-contrib-clean-latest grunt-contrib-clean@latest
+43 info addNameTag [ 'grunt-contrib-uglify', 'latest' ]
+44 verbose already installed skipping grunt-contrib-jshint@~0.6.4 /var/www/git/ez-notify
+45 verbose registry.get https://registry.npmjs.org/grunt-contrib-uglify not expired, no request
+46 verbose addNamed [ 'grunt-contrib-uglify', '0.6.0' ]
+47 verbose addNamed [ '0.6.0', '0.6.0' ]
+48 silly lockFile 19fbe28a-grunt-contrib-uglify-0-6-0 grunt-contrib-uglify@0.6.0
+49 verbose lock grunt-contrib-uglify@0.6.0 /home/jdewit/.npm/19fbe28a-grunt-contrib-uglify-0-6-0.lock
+50 verbose already installed skipping grunt-contrib-concat@~0.1.3 /var/www/git/ez-notify
+51 info already installed grunt-contrib-clean@0.6.0
+52 silly lockFile 19fbe28a-grunt-contrib-uglify-0-6-0 grunt-contrib-uglify@0.6.0
+53 silly lockFile 19fbe28a-grunt-contrib-uglify-0-6-0 grunt-contrib-uglify@0.6.0
+54 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+55 silly lockFile 20260ab5-grunt-contrib-uglify-latest grunt-contrib-uglify@latest
+56 info already installed grunt-contrib-uglify@0.6.0
+57 silly resolved []
+58 info build /var/www/git/ez-notify
+59 verbose linkStuff [ false, false, false, '/var/www/git' ]
+60 info linkStuff ez-notify@0.0.1
+61 verbose linkBins ez-notify@0.0.1
+62 verbose linkMans ez-notify@0.0.1
+63 verbose rebuildBundles ez-notify@0.0.1
+64 verbose rebuildBundles [ '.bin',
+64 verbose rebuildBundles   'grunt',
+64 verbose rebuildBundles   'grunt-angular-templates',
+64 verbose rebuildBundles   'grunt-bump',
+64 verbose rebuildBundles   'grunt-contrib-clean',
+64 verbose rebuildBundles   'grunt-contrib-concat',
+64 verbose rebuildBundles   'grunt-contrib-jasmine',
+64 verbose rebuildBundles   'grunt-contrib-jshint',
+64 verbose rebuildBundles   'grunt-contrib-uglify',
+64 verbose rebuildBundles   'grunt-contrib-watch',
+64 verbose rebuildBundles   'grunt-karma',
+64 verbose rebuildBundles   'grunt-shell',
+64 verbose rebuildBundles   'karma',
+64 verbose rebuildBundles   'karma-chai',
+64 verbose rebuildBundles   'karma-chrome-launcher',
+64 verbose rebuildBundles   'karma-coverage',
+64 verbose rebuildBundles   'karma-firefox-launcher',
+64 verbose rebuildBundles   'karma-mocha',
+64 verbose rebuildBundles   'karma-phantomjs-launcher',
+64 verbose rebuildBundles   'karma-script-launcher',
+64 verbose rebuildBundles   'mocha' ]
+65 verbose rebuild bundle /var/www/git/ez-notify/node_modules/grunt-karma
+66 info build /var/www/git/ez-notify/node_modules/grunt-karma
+67 info preinstall grunt-karma@0.6.2
+68 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+69 info linkStuff grunt-karma@0.6.2
+70 verbose linkBins grunt-karma@0.6.2
+71 verbose linkMans grunt-karma@0.6.2
+72 verbose rebuildBundles grunt-karma@0.6.2
+73 verbose rebuildBundles [ 'optimist' ]
+74 info install grunt-karma@0.6.2
+75 info postinstall grunt-karma@0.6.2
+76 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma
+77 info build /var/www/git/ez-notify/node_modules/karma
+78 info preinstall karma@0.10.10
+79 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+80 info linkStuff karma@0.10.10
+81 verbose linkBins karma@0.10.10
+82 verbose link bins [ { karma: './bin/karma' },
+82 verbose link bins   '/var/www/git/ez-notify/node_modules/.bin',
+82 verbose link bins   false ]
+83 verbose linkMans karma@0.10.10
+84 verbose rebuildBundles karma@0.10.10
+85 verbose rebuildBundles [ '.bin',
+85 verbose rebuildBundles   'chokidar',
+85 verbose rebuildBundles   'coffee-script',
+85 verbose rebuildBundles   'colors',
+85 verbose rebuildBundles   'connect',
+85 verbose rebuildBundles   'di',
+85 verbose rebuildBundles   'glob',
+85 verbose rebuildBundles   'graceful-fs',
+85 verbose rebuildBundles   'http-proxy',
+85 verbose rebuildBundles   'lodash',
+85 verbose rebuildBundles   'log4js',
+85 verbose rebuildBundles   'mime',
+85 verbose rebuildBundles   'minimatch',
+85 verbose rebuildBundles   'optimist',
+85 verbose rebuildBundles   'q',
+85 verbose rebuildBundles   'rimraf',
+85 verbose rebuildBundles   'socket.io',
+85 verbose rebuildBundles   'useragent' ]
+86 info install karma@0.10.10
+87 info postinstall karma@0.10.10
+88 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-chai
+89 info build /var/www/git/ez-notify/node_modules/karma-chai
+90 info preinstall karma-chai@0.0.2
+91 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+92 info linkStuff karma-chai@0.0.2
+93 verbose linkBins karma-chai@0.0.2
+94 verbose linkMans karma-chai@0.0.2
+95 verbose rebuildBundles karma-chai@0.0.2
+96 verbose rebuildBundles [ 'chai' ]
+97 info install karma-chai@0.0.2
+98 info postinstall karma-chai@0.0.2
+99 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-chrome-launcher
+100 info build /var/www/git/ez-notify/node_modules/karma-chrome-launcher
+101 info preinstall karma-chrome-launcher@0.1.5
+102 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+103 info linkStuff karma-chrome-launcher@0.1.5
+104 verbose linkBins karma-chrome-launcher@0.1.5
+105 verbose linkMans karma-chrome-launcher@0.1.5
+106 verbose rebuildBundles karma-chrome-launcher@0.1.5
+107 info install karma-chrome-launcher@0.1.5
+108 info postinstall karma-chrome-launcher@0.1.5
+109 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-coverage
+110 info build /var/www/git/ez-notify/node_modules/karma-coverage
+111 info preinstall karma-coverage@0.1.5
+112 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+113 info linkStuff karma-coverage@0.1.5
+114 verbose linkBins karma-coverage@0.1.5
+115 verbose linkMans karma-coverage@0.1.5
+116 verbose rebuildBundles karma-coverage@0.1.5
+117 verbose rebuildBundles [ '.bin', 'dateformat', 'ibrik', 'istanbul' ]
+118 info install karma-coverage@0.1.5
+119 info postinstall karma-coverage@0.1.5
+120 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-firefox-launcher
+121 info build /var/www/git/ez-notify/node_modules/karma-firefox-launcher
+122 info preinstall karma-firefox-launcher@0.1.3
+123 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+124 info linkStuff karma-firefox-launcher@0.1.3
+125 verbose linkBins karma-firefox-launcher@0.1.3
+126 verbose linkMans karma-firefox-launcher@0.1.3
+127 verbose rebuildBundles karma-firefox-launcher@0.1.3
+128 info install karma-firefox-launcher@0.1.3
+129 info postinstall karma-firefox-launcher@0.1.3
+130 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-mocha
+131 info build /var/www/git/ez-notify/node_modules/karma-mocha
+132 info preinstall karma-mocha@0.1.9
+133 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+134 info linkStuff karma-mocha@0.1.9
+135 verbose linkBins karma-mocha@0.1.9
+136 verbose linkMans karma-mocha@0.1.9
+137 verbose rebuildBundles karma-mocha@0.1.9
+138 info install karma-mocha@0.1.9
+139 info postinstall karma-mocha@0.1.9
+140 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-phantomjs-launcher
+141 info build /var/www/git/ez-notify/node_modules/karma-phantomjs-launcher
+142 info preinstall karma-phantomjs-launcher@0.1.4
+143 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+144 info linkStuff karma-phantomjs-launcher@0.1.4
+145 verbose linkBins karma-phantomjs-launcher@0.1.4
+146 verbose linkMans karma-phantomjs-launcher@0.1.4
+147 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+148 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+149 info install karma-phantomjs-launcher@0.1.4
+150 info postinstall karma-phantomjs-launcher@0.1.4
+151 verbose rebuild bundle /var/www/git/ez-notify/node_modules/karma-script-launcher
+152 info build /var/www/git/ez-notify/node_modules/karma-script-launcher
+153 info preinstall karma-script-launcher@0.1.0
+154 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+155 info linkStuff karma-script-launcher@0.1.0
+156 verbose linkBins karma-script-launcher@0.1.0
+157 verbose linkMans karma-script-launcher@0.1.0
+158 verbose rebuildBundles karma-script-launcher@0.1.0
+159 info install karma-script-launcher@0.1.0
+160 info postinstall karma-script-launcher@0.1.0
+161 verbose rebuild bundle /var/www/git/ez-notify/node_modules/mocha
+162 info build /var/www/git/ez-notify/node_modules/mocha
+163 info preinstall mocha@2.0.1
+164 verbose linkStuff [ false, false, false, '/var/www/git/ez-notify/node_modules' ]
+165 info linkStuff mocha@2.0.1
+166 verbose linkBins mocha@2.0.1
+167 verbose link bins [ { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+167 verbose link bins   '/var/www/git/ez-notify/node_modules/.bin',
+167 verbose link bins   false ]
+168 verbose linkMans mocha@2.0.1
+169 verbose rebuildBundles mocha@2.0.1
+170 verbose rebuildBundles [ '.bin',
+170 verbose rebuildBundles   'commander',
+170 verbose rebuildBundles   'debug',
+170 verbose rebuildBundles   'diff',
+170 verbose rebuildBundles   'escape-string-regexp',
+170 verbose rebuildBundles   'glob',
+170 verbose rebuildBundles   'growl',
+170 verbose rebuildBundles   'jade',
+170 verbose rebuildBundles   'mkdirp' ]
+171 info install mocha@2.0.1
+172 info postinstall mocha@2.0.1
+173 info install ez-notify@0.0.1
+174 info postinstall ez-notify@0.0.1
+175 info prepublish ez-notify@0.0.1
+176 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+176 error peerinvalid Peer karma-chrome-launcher@0.1.5 wants karma@>=0.9.3
+176 error peerinvalid Peer karma-firefox-launcher@0.1.3 wants karma@>=0.9
+176 error peerinvalid Peer karma-mocha@0.1.9 wants karma@>=0.12.8
+176 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+176 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+176 error peerinvalid Peer karma-chai@0.0.2 wants karma@>=0.9
+176 error peerinvalid Peer karma-coverage@0.1.5 wants karma@>=0.9
+176 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+177 error System Linux 3.2.0-68-generic
+178 error command "/usr/bin/node" "/usr/bin/npm" "install"
+179 error cwd /var/www/git/ez-notify
+180 error node -v v0.10.32
+181 error npm -v 1.4.28
+182 error code EPEERINVALID
+183 verbose exit [ 1, true ]

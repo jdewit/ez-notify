@@ -1,6 +1,6 @@
 'use_strict';
 
-angular.module('ez.notify', ['ui.bootstrap'])
+angular.module('ez.notify', [])
 
 .controller('NotifyCtrl', ['$scope', '$modalInstance', function($scope, $modalInstance) {
   $scope.cancel = function() {
